@@ -29,3 +29,29 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .rte p:last-child {
     margin-bottom: 0;
 }
+
+/* First Section */
+#first-section .padding {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+    #first-section .padding {
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+    #first-section .first-sec-wrapper {
+        max-width: 29rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .gap-small-column-2 {
+        gap: 2rem;
+    }
+
+    .gap-small-column-4 {
+        gap: 4rem;
+    }
+}

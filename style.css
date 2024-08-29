@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Aptos',sans-serif;
+    line-height: 1.4em;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: .04rem;
+}
+
+h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1366px !important;
+}
+
+.caption {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.rte p:last-child {
+    margin-bottom: 0;
+}

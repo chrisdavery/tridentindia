@@ -42,6 +42,20 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 600;
 }
 
+.media {
+    position: relative;
+}
+
+.media > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
 @media (min-width: 768px) {
     .section-padding-st {
         padding-top: 56px;
@@ -58,7 +72,7 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         max-width: 1200px !important;
     }
     .description-section {
-        max-width: 50rem;
+        max-width: 52rem;
     }
 }
 

@@ -47,6 +47,10 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 @media (max-width: 767px) {
+    .h1, h1 {
+        font-size: 2rem;
+    }
+    
     .gap-small-column-2 {
         gap: 2rem;
     }

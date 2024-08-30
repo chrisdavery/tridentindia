@@ -88,7 +88,7 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     }
 
     .gap-small-column-2 {
-        gap: 2rem;
+        row-gap: 2rem;
     }
 
     .gap-small-column-4 {

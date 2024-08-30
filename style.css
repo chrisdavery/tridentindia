@@ -38,6 +38,10 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: #eee;
 }
 
+.font-weight-semi {
+    font-weight: 600;
+}
+
 @media (min-width: 768px) {
     .section-padding-st {
         padding-top: 56px;
@@ -49,6 +53,12 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     .second-sec-wrapper {
         max-width: 29rem;
         margin: auto;
+    }
+    #third-section .container {
+        max-width: 1200px !important;
+    }
+    .description-section {
+        max-width: 50rem;
     }
 }
 

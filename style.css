@@ -153,6 +153,14 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #fff;
 }
 
+.logos-grid img {
+    max-height: 77px;
+    margin: auto;
+    min-height: 77px;
+    object-fit: contain;
+    display: block;
+}
+
 @media (min-width: 768px) {
     .grid-logos {
         grid-template-rows: minmax(0, 118px);
@@ -172,7 +180,7 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     #sixth-section .section-padding-st {
         padding-bottom: 90px;
     }
-    
+
     #first-section .first-sec-wrapper {
         max-width: 29rem;
         margin: auto;
@@ -198,6 +206,10 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 @media (max-width: 767px) {
+    .logos-grid .col {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
     #sixth-section h2.h1 {
         max-width: 18rem;
         margin-left: auto;

@@ -62,13 +62,8 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     line-height: 1.2em;
 }
 
-#sixth-section .wrapper-outer {
+#sixth-section .logo-wrappers:not(.logo-wrappers-bottom) .wrapper-outer {
     max-width: 8rem;
-    margin: auto;
-}
-
-#sixth-section .row {
-    max-width: 36rem;
     margin: auto;
 }
 
@@ -107,6 +102,28 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     outline: none;
 }
 
+.logo-wrappers {
+    max-width: 18rem;
+}
+
+.logo-wrappers-bottom {
+    max-width: 29rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.object-contain * {
+    object-fit: contain !important;
+}
+
+.logo-single {
+    max-width: 7rem;
+}
+
+.logo-long {
+    max-width: 18rem !important;
+}
+
 @media (min-width: 768px) {
     .main-carousel {
         display: flex;
@@ -138,8 +155,8 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         max-width: 52rem;
     }
 
-    #sixth-section .container {
-        max-width: 52rem !important;
+    #sixth-section .description-section {
+        max-width: 57rem !important;
     }
 }
 
@@ -175,5 +192,9 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     body {
         line-height: 1.6em;
         font-size: 16px;
+    }
+
+    .logo-wrappers {
+        max-width: 11rem;
     }
 }

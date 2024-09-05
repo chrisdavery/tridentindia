@@ -62,11 +62,6 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     line-height: 1.2em;
 }
 
-#sixth-section .logo-wrappers:not(.logo-wrappers-bottom) .wrapper-outer {
-    max-width: 8rem;
-    margin: auto;
-}
-
 #fourth-section .carousel-cell {
     width: 25%;
     padding: 0 10px;
@@ -102,16 +97,6 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     outline: none;
 }
 
-.logo-wrappers {
-    max-width: 18rem;
-}
-
-.logo-wrappers-bottom {
-    max-width: 29rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
 .object-contain * {
     object-fit: contain !important;
 }
@@ -124,7 +109,47 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     max-width: 18rem !important;
 }
 
+.comm-col .wrapper-outer {
+    max-width: 100% !important;
+}
+
+.global-col {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.circ-col {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.promise-logos {
+    max-width: 14rem;
+}
+
+.comm-wrappers-first {
+    max-width: 20rem;
+    margin: auto;
+}
+
+.comm-wrappers-second {
+    max-width: 20rem;
+    margin: auto;
+}
+
+.logo-wrap-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-wrappers {
+    width: 100%;
+}
+
 @media (min-width: 768px) {
+    .grid-logos {
+        grid-template-rows: minmax(0, 144px);
+    }
     .main-carousel {
         display: flex;
         flex-wrap: wrap;
@@ -161,6 +186,11 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 @media (max-width: 767px) {
+    #sixth-section h2.h1 {
+        max-width: 18rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
     #fourth-section .section-padding-st {
         padding-bottom: 50px;
     }
@@ -192,9 +222,5 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     body {
         line-height: 1.6em;
         font-size: 16px;
-    }
-
-    .logo-wrappers {
-        max-width: 11rem;
     }
 }

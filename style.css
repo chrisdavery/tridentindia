@@ -144,11 +144,18 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .logo-wrappers {
     width: 100%;
+    max-width: 7rem;
 }
  
+.copyright-bottom {
+    font-size: 12px;
+    background: var(--bs-body-color);
+    color: #fff;
+}
+
 @media (min-width: 768px) {
     .grid-logos {
-        grid-template-rows: minmax(0, 144px);
+        grid-template-rows: minmax(0, 118px);
     }
     .main-carousel {
         display: flex;
@@ -161,6 +168,11 @@ h1, h2, h3,h4,h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         padding-top: 56px;
         padding-bottom: 56px;
     }
+
+    #sixth-section .section-padding-st {
+        padding-bottom: 90px;
+    }
+    
     #first-section .first-sec-wrapper {
         max-width: 29rem;
         margin: auto;
